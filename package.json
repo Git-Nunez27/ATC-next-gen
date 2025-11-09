@@ -1,0 +1,31 @@
+{
+    "name": "nodejs-sandbox",
+    "version": "1.0.0",
+    "description": "A small Node.js Express sandbox",
+        "main": "src/server.js",
+        "scripts": {
+            "start": "node src/server.js",
+            "dev": "nodemon src/server.js",
+            "test": "jest --runInBand"
+        },
+    "author": "",
+    "license": "MIT",
+        "dependencies": {
+            "bcrypt": "^5.1.0",
+            "cors": "^2.8.5",
+            "dotenv": "^16.3.1",
+            "express": "^5.1.0",
+            "helmet": "^7.0.0",
+            "jsonwebtoken": "^9.0.0",
+            "pg": "^8.11.0",
+            "sequelize": "^6.32.1",
+            "sqlite3": "^5.1.6"
+            ,"morgan": "^1.10.0",
+            "express-rate-limit": "^6.7.0",
+            "express-validator": "^7.0.1"
+        },
+        "devDependencies": {
+                    "jest": "^29.6.1",
+                    "nodemon": "^3.0.1"
+        }
+}
